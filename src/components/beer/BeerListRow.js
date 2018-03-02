@@ -13,6 +13,6 @@ const BeerListRow = ({beer}) => {
 };
 
 BeerListRow.propTypes = { 
-  //  course: PropTypes.Object.isRequired
+ beer: PropTypes.Object.isRequired
 };
 export default BeerListRow;

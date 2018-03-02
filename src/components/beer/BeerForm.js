@@ -53,7 +53,8 @@ BeerForm.propTypes = {
     onSave : React.PropTypes.func.isRequired,
     onChange : React.PropTypes.func.isRequired,
     loading : React.PropTypes.bool,
-    errors: React.PropTypes.object
-}
+    errors: React.PropTypes.object.isRequired,
+    beer : React.PropTypes.object.isRequired
+};
 
 export default BeerForm;

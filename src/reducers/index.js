@@ -9,6 +9,6 @@ const rootReducer = combineReducers({
     courses,
     beers
 
-})
+});
 
 export default rootReducer;

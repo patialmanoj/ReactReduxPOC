@@ -26,16 +26,18 @@ class CoursePage extends React.Component{
     }
 }
 
+CoursePage.propTypes = {
+    courses: PropTypes.array.isRequired
+};
 
 
-
-function mapStateToProps(state,ownprops){
+function mapStateToProps(state,ownprops){ // state here is store state
     return{
-        courses : state.courses 
+        courses : state.courses  
     };
 }
 
-function mapDispatchToProps(dispatch){
+function mapDispatchToProps(dispatch){ // actions we want to expose on our component
     return {
         actions: bindActionCreators(courseActions ,dispatch)
     };
