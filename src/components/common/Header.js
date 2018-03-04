@@ -9,7 +9,7 @@ const Header = () => {
             {" | "}
             <Link to="/courses" activeClassName="active">Courses</Link>
             {" | "}
-            <Link to="/beers" activeClassName="active">Beer</Link>
+            <Link to="/course" activeClassName="active">Manage Course</Link>
             {" | "}
             <Link to="/about" activeClassName="active">About</Link>
             

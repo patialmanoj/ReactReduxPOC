@@ -1,5 +1,5 @@
-import React , {PropTypes}  from 'react';//, {PropTypes}
-//import PropTypes from 'prop-types';
+import React  from 'react';//, {PropTypes}
+import PropTypes from 'prop-types';
 import Header from './common/Header';
 
 class App extends React.Component{
@@ -12,8 +12,8 @@ class App extends React.Component{
         );
     }
 }
-// App.PropTypes = {
-//     children : PropTypes.Object
-// };
+App.propTypes = {
+    children : PropTypes.object.isRequired
+};
 
 export default App;

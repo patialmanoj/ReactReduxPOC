@@ -47,13 +47,3 @@ function mapDispatchToProps(dispatch){ // actions we want to expose on our compo
 
 export default connect(mapStateToProps, mapDispatchToProps)(CoursePage); // wraps courese page
 
-
-// class BeerPage extends React.Component{
-// render(){
-//     return (
-//         <div>
-//             <h1>beers</h1>
-//         </div>
-//         )
-//     }
-// }
